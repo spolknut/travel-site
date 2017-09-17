@@ -1,0 +1,10 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+
+/* Autoscales all images width 100%; no horizontal scrolling */
+img {
+	max-width: 100%;
+	height: auto;
+}
