@@ -20,6 +20,6 @@ gulp.task('watch', function(){
 
 /*['styles'] is a dependency task, all dependency tasks   */
 gulp.task('cssInject', ['styles'], function(){
-	gulp.src('./app/tmp/styles/styles.css')
+	gulp.src('./app/temp/styles/styles.css')
 .pipe(browserSync.stream());
 });

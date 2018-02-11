@@ -1,6 +1,5 @@
-.primary-nav{
-
-  &--pull-right{
+.primary-nav {
+  &--pull-right {
     float: right;
   }
 
@@ -18,9 +17,9 @@
 
   a {
     color: #FFF;
-    text-decoration: none;
     font-weight: 300;
-    display: block;;
+    text-decoration: none;
+    display: block;
     padding: 12px 0;
   }
 }
