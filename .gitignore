@@ -11,8 +11,9 @@
 *.sass-cache
 node_modules/
 .tmp/
-.app/tmp
-.app/temp
+.temp/
+./app/tmp
+./app/temp
 # OS or Editor folders
 .DS_Store
 Thumbs.db
