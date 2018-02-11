@@ -8,6 +8,7 @@ border-bottom: 10px solid $mainBlue;
   }
 
   &__text-content {
+    padding-top: 88px;
     position: absolute;
     /* Top 50% + translateY(-50%) center alligns vertically over container element */
     top: 50%;
@@ -16,6 +17,11 @@ border-bottom: 10px solid $mainBlue;
     /* Width 100% + center allign => center text horizontally over container element */
     width: 100%;
     text-align: center;
+
+    @mixin atMedium {
+      padding-top: 60px;
+    }
+
   }
 
   &__title {
