@@ -12,8 +12,8 @@
 node_modules/
 .tmp/
 .temp/
-./app/tmp
-./app/temp
+./app/temp/
+./temp/
 # OS or Editor folders
 .DS_Store
 Thumbs.db
